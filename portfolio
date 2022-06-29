@@ -8,23 +8,35 @@
         font-size: 60px;
         text-align: center;
         background-image:url(https://cdn.pixabay.com/photo/2016/02/17/15/37/laptop-1205256_960_720.jpg);
-        background-size: 300px 100px;
+        background-size: contain;
+    }
+    #proyectos {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .proyecto img{
+        height: 50%;
     }
 </style>
+<script>
+    console.log('hello world');
+    let proyectos = document.querySelector('#proyectos');
+    console.log('proyectos')
+</script>
     </head>
     <body>
         <section id="seccion1">
             <h1>Bienvenido!</h1>
         </section>
-        <div>
-            <img src="https://lenguajejs.com/assets/logo.svg" alt="">
-        </div>
-        <section> <p>Javascript</p>
+        <section id="seccion1" >
             <div>
-                <p><html<p>
-                    <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="">
+                <img src="https://soyhorizonte.com/wp-content/uploads/2020/10/Javascript-by-SoyHorizonte.jpg" alt="">
+                <p>Javascript</p> 
             </div>
-            
-        </section>
+            <div>
+                <img src="https://cdn.pixabay.com/photo/2018/05/08/21/28/html5-3384014__340.png" alt="">
+                <p>HTML</p>
+            </section>
+            </div>
     </body>
 </html>
