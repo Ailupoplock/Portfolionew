@@ -19,10 +19,16 @@
     }
 </style>
 <script>
+    const datos = [{
+         img:https //soyhorizonte.com/wp-content/uploads/2020/10/Javascript-by-SoyHorizonte.jpg,
+         desc: 'Javascript'
+        }]
     console.log('hello world');
     let proyectos = document.querySelector('#proyectos');
     console.log('proyectos')
+ 
 </script>
+ 
     </head>
     <body>
         <section id="seccion1">
@@ -30,13 +36,14 @@
         </section>
         <section id="seccion1" >
             <div>
-                <img src="https://soyhorizonte.com/wp-content/uploads/2020/10/Javascript-by-SoyHorizonte.jpg" alt="">
+                <img src= 'https://soyhorizonte.com/wp-content/uploads/2020/10/Javascript-by-SoyHorizonte.jpg' alt="">
                 <p>Javascript</p> 
             </div>
             <div>
                 <img src="https://cdn.pixabay.com/photo/2018/05/08/21/28/html5-3384014__340.png" alt="">
                 <p>HTML</p>
             </section>
+
             </div>
     </body>
 </html>
